@@ -1,0 +1,55 @@
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the navigation bar */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Styling for sections */
+section {
+    padding: 50px 20px;
+}
+
+/* Additional styles for headings and paragraphs */
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+form-input {
+    min-width: 350px;
+    background: #fff;
+    border-radius: 5px;
+    transform: translate(-50%, -50%) scale(.9);
+    opacity: 1;
+    transition: all .3s ease;
+}

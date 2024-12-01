@@ -1,0 +1,16 @@
+
+{% extends "_base.html" %}
+{% block  bodyblock%}
+<section id="register">
+    <h1>if you have any queries, register your name here</h1>
+    <p>want to know more about me?.</p>
+</section>
+<form action="#" method="POST">
+    {% csrf_token %}
+    <div class="form-input">
+        <label for="name" class="form-label">Enter your name</label>
+        <input type="text" name="name" id="name" class="form-control" required>
+    </div>
+    <button type="submit" class="btn btn-success">Submit</button>
+</form>
+{% endblock  %}
